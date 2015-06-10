@@ -1,11 +1,16 @@
 {
     "compilerOptions": {
         "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
         "module": "amd",
         "target": "es5",
         "noImplicitAny": true,
         "removeComments": false,
         "preserveConstEnums": true,
         "sourceMap": true
-    }
+    },
+    "files": [
+        "main.ts",
+        "../typings/tsd.d.ts"
+    ]
 }

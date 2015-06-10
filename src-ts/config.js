@@ -1,5 +1,5 @@
 System.config({
-    transpiler: "typescript",
+    transpiler: 'typescript',
     typescriptOptions: {
         emitDecoratorMetadata: true,
         experimentalDecorators: true
