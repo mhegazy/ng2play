@@ -8,11 +8,11 @@ gulp.task('help', $.taskListing);
 gulp.task('default', ['help']);
 
 gulp.task('ts-watcher', function() {
-    gulp.watch('./src', ['ts-compile']);
+    gulp.watch('./src-ts', ['ts-compile']);
 });
 
 gulp.task('ts-compile', function(done) {    
-    runTSC('./src', done);
+    runTSC('./src-ts', done);
 });
 
 function runTSC(directory, done) {

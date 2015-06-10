@@ -1,0 +1,10 @@
+<div [tooltip]="foo">Hello, {{message}}</div>
+<p (click)="works()">Click Here to invoke a function</p>
+<p (click)="user.focus()">Click here to grab focus</p>
+<input type="text" #user (keyup)>{{user.value}}
+<button (click)="fetch()">Fetch users</button>
+<ul>
+	<li *ng-for="#user of users">{{user.login}}
+		<img [src]="user.avatar_url" height="50px">
+	</li>
+</ul>
