@@ -7,7 +7,7 @@ import {GithubNames} from 'github.service';
 
 @Component({
   selector: 'my-component',
-  appInjector: [GithubNames],
+  appInjector: [GithubNames]
   //lifecycle: [onChange]
   // properties: {name: 'name'},
   // events: ['rate'],
