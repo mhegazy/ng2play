@@ -15,6 +15,6 @@
   },
   "dependencies": {
     "systemjs": "^0.17.1",
-    "typescript": "git://github.com/mhegazy/typescript#v1.5-beta2"
+    "typescript": "mhegazy/typescript#v1.5-beta2"
   }
 }
