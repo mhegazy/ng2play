@@ -33,9 +33,9 @@ export class MyComponent {
 
   fetch() {
     this.users = this.github.getUsersSync();
-    this.github.getUsers().then((users: any) => {
-      this.users = users;
-    });
+    // this.github.getUsers().then((users: any) => {
+    //   this.users = users;
+    // });
   }
   works() {
     alert('this works!');
