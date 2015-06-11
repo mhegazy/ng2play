@@ -10,7 +10,6 @@
         "sourceMap": true
     },
     "files": [
-        "NOT REALLY NEEDED",
         "main.ts",
         "mycomponent.ts",
         "github.service.ts",
