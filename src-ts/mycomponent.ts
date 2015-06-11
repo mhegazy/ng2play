@@ -4,8 +4,8 @@ import {
   bootstrap,
   NgFor
 } from 'angular2/angular2';
-import { Tooltip } from './tooltip.ts';
-import { GithubNames } from './github.service.ts';
+import { Tooltip } from 'tooltip';
+import { GithubNames } from 'github.service';
 
 @Component({
   selector: 'my-component',
