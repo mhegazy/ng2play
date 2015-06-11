@@ -14,7 +14,7 @@ import {GithubNames} from 'github.service';
 })
 @View({
   templateUrl: 'mycomponent.html',
-    directives: [Tooltip, NgFor]
+  directives: [Tooltip, NgFor]
 })
 export class MyComponent {
   message: string;
