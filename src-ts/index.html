@@ -10,8 +10,14 @@
   
   <body>
     <my-component></my-component>
-    <script src="config.js"></script>
     <script>
+        System.config({
+            transpiler: 'typescript',
+            typescriptOptions: {
+                emitDecoratorMetadata: true,
+                experimentalDecorators: true
+            }
+        });
         System.paths = {
             "main": "main.ts"
         };
