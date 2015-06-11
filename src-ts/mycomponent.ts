@@ -1,8 +1,6 @@
 import {
-  Component,
-  View, 
-  bootstrap, 
-  NgFor
+  ComponentAnnotation as Component,
+  ViewAnnotation as View, bootstrap, NgFor
 } from 'angular2/angular2';
 import { Tooltip } from 'tooltip';
 import {GithubNames} from 'github.service';
