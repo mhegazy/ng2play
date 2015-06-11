@@ -1,9 +1,11 @@
 import {
   ComponentAnnotation as Component,
-  ViewAnnotation as View, bootstrap, NgFor
+  ViewAnnotation as View,
+  bootstrap,
+  NgFor
 } from 'angular2/angular2';
-import { Tooltip } from 'tooltip';
-import {GithubNames} from 'github.service';
+import { Tooltip } from './tooltip.ts';
+import {GithubNames} from './github.service.ts';
 
 @Component({
   selector: 'my-component',
@@ -20,7 +22,7 @@ export class MyComponent {
   message: string;
   foo: string;
   github: GithubNames;
-  users: Array<{login: string, avatar_url: string}>; 
+  users: Array<{ login: string, avatar_url: string }>;
   constructor(github: GithubNames) {
     this.message = 'World';
     this.foo = 'bar';
@@ -29,7 +31,7 @@ export class MyComponent {
     // this.name;
     // this.rate;
   }
-  
+
   fetch() {
     this.users = this.github.getUsersSync();
     // this.github.getUsers().then((users: any) => {
