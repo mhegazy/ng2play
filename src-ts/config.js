@@ -1,4 +1,4 @@
-System.config({
+/*System.config({
     transpiler: 'typescript',
     typescriptOptions: {
         emitDecoratorMetadata: true,
@@ -11,3 +11,11 @@ System.paths = {
     "mycomponent": "mycomponent.ts",
     "github.service": "github.service.ts"
 };
+*/
+
+System.config({
+  defaultJSExtensions: false,
+  paths: {
+  "rx" : "rx"
+  } 
+});
